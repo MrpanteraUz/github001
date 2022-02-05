@@ -1,0 +1,244 @@
+@media screen and (max-width: 890px){
+        .collection{
+            position: fixed;
+            top: 80px;
+            left: -120%;
+            background: #252526; 
+            border: none;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: 100vh;
+            transition: .5s;
+        }
+        .btn{
+            width: 20% ;
+            height: 50px;
+            font-size: 16px;
+            margin-top: 60px;
+            padding: 17px 0;
+        }
+        .content_text_nav{
+            width: 100%;
+            height: 100px;
+        }
+        .content_bag{
+            width: 100%;
+            height: 120px;
+            align-content: flex-start;
+        }
+        .contentBox{
+            width: 200px;
+            height: 150px;
+            padding-left: 20px;
+            margin-top: 30px;
+            position: relative;
+            top: -87px;
+
+        }
+        .menu_text{
+            margin-top: -20px ; 
+        }
+        .menu_text h1{
+            text-align: center;
+            font-size: 60px;
+            padding-top: 160px;
+        }
+        .navbar_menu img{
+          position: relative;
+          left: -90px;
+          width: 100px;
+          height: 40px;
+        }
+
+        .navbar_menu{
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            width: 100%;
+            height: 80px;
+            border: none;
+            background: #252526 ;
+        }
+
+        #menuOpen{
+            display: block;
+            color: #fff;
+            font-size: 20px;
+            margin-left: -30px;
+
+        }
+
+        #inputCheckbox:checked ~ .collection{
+            left: 0;
+        }
+
+        #inputCheckbox:checked ~ #labelCheckbox #menuClose {
+            display: block;
+            color: #fff;
+            margin-left: -30px;
+        }
+
+        #inputCheckbox:checked ~ #labelCheckbox #menuOpen {
+            display: none;
+            font-size: -30px;
+
+        }
+        .con_bacgrund{
+            width: 100%;
+            height:300px;
+        }
+        #text_con{
+            width: 80%;
+            height: 100%;
+            margin: auto;
+        }
+
+        .cards_sigim{
+             line-height:.1.1;
+             width: 100%;
+             font-size: 14px;
+
+        }
+        .image_users{
+            width: 100%;
+            
+        }
+        
+}
+
+@media screen and (max-width: 500px) {
+    .cards_text{
+        width:250px;
+        height: 210px;
+    }
+
+    .cards_iamge{
+        width: 250px;
+        height: 100%;
+    }
+    .con_bacgrund{
+        margin-top: 200px;
+    }
+    #text_con{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        font-size: 16px;
+        margin-top: -20px
+    }
+    
+    
+}
+
+@media screen  and ( max-width:600px) {
+    footer{
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    footer img {
+        position: relative;
+        top: 30px;
+    }
+
+    .it_collection{
+        padding-top: 30px;
+        padding-left:10px ;
+    }
+    .icon_footer{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .cards_text{
+        width:100%;
+        height: 200px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cards_iamge{
+        width: 100%;
+        height: 100%;
+    }
+    .card_box1 .cards_text{
+        position: relative;
+        top: 530px;
+    }
+     .contentBox{
+        width: 100%;
+        height: 135px;
+        position: relative;
+        top: -50px;
+
+    }
+
+    .button_menyu{
+        position: relative;
+        top: 450px;
+    }
+
+    footer{
+        position: relative;
+        top:480px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .button_text{
+        width: 100%;
+    }
+    .button_btn{
+        width: 80% ;
+        height: 50px;
+        font-size: 16px;
+        margin-left: 11.5%;
+        padding: 17px 0;
+    }
+    .button_menyu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contentBox{
+        width: 100%;
+        height: 135px;
+        position: relative;
+        top: -50px;
+    }
+    .menu_text{
+        margin-top: -10px ; 
+        position: relative;
+        top: -180px;
+    }
+    .menu_text h1{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 310px;
+    }
+
+    .content_text_nav{
+        font-size: 11px;
+    }
+
+    .btn{
+        width: 80% ;
+        height: 50px;
+        font-size: 16px;
+        margin-top: 60px;
+        margin-left: 11.5%;
+        padding: 17px 0;
+    }
+    #menuOpen{
+        margin-right: 20px;
+    }
+    #menuClose{
+        margin-right: 20px;
+    }
+    header{
+        width: 100%;
+        height: 400px;
+    }
+}
