@@ -187,7 +187,7 @@
     }
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 415px){
     .button_text{
         width: 100%;
     }
@@ -195,7 +195,6 @@
         width: 80% ;
         height: 50px;
         font-size: 16px;
-        margin-left: 11.5%;
         padding: 17px 0;
     }
     .button_menyu{
@@ -240,5 +239,30 @@
     header{
         width: 100%;
         height: 400px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;}
+
+    .it_collection{
+        width: 100%;
+        position: relative;
+        left: 30px;
+        font-size: 22px;
+        
+    }    
+    
+    
+
+    
+    footer img {
+        position: relative;
+        top: -70px;
+        left: 40px;
+    }
+    .it_collection{
+        position: relative;
+        top: -60px;
+
     }
 }

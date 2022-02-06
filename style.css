@@ -233,7 +233,7 @@ header{
 }
 
 .button_menyu{
- width: 80%; 
+ width: 90%; 
  height: 140px;
  margin: auto;
  margin-top: 15px;
@@ -253,7 +253,7 @@ header{
 }
 
 .button_btn{
-    width: 130px;
+    width: 140px;
     height: 50px;
     font-size: 16px;
     background: #5AB963;
@@ -278,13 +278,13 @@ header{
 .btn:hover{
     box-shadow: 0 0 10px #5ab963ab;
     transition: .6s;
-    font-size: 18px;
+    transform: scale(1.1);
 }
 
 .button_btn:hover{
     box-shadow: 0 0 10px #5ab963ab;
     transition: .6s;
-    font-size: 18px;
+    transform: scale(1.1);
 }
 
 
